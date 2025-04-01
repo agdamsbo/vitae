@@ -199,7 +199,7 @@ $if(show_footer)$
 \makecvfooter
   {$date$}
     {$name$$if(surname)$ $surname$$endif$~~~·~~~$if(docname)$$docname$$else$Curriculum Vitae$endif$}
-  {\thepage$if(page_total)$~$if(page_count_sep)$$docname$$else$ of $endif$\pageref{LastPage}~$endif$}
+  {\thepage$if(page_total)$~/\pageref{LastPage}~$endif$}
 $endif$
 
 
